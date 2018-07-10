@@ -51,6 +51,12 @@ font-size: $p-font;
 }
 
 h1 {
-  font-size: $header-font;
+  font-size: $h1-font;
+  font-weight: bold;
+  letter-spacing: $spacing-sm;
 }
+p {
+  letter-spacing: 0.15vw;
+}
+
 
