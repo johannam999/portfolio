@@ -19,7 +19,7 @@ webpackConfig.output = {
 
 webpackConfig.plugins = [
   new HtmlWebpackPlugin({
-    title: 'Music Pic',
+    title: 'Joanna Coll - bio',
   }),
   new MiniCssPlugin({
     filename: '[name].[hash].css',
