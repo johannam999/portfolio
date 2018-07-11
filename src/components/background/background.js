@@ -25,6 +25,12 @@ class Background extends React.Component {
         <div>
           <h1>EXPERIENCE</h1>
           <ul>
+          <li>
+              <strong>Full Stack JavaScript Developer Training - Codefellows</strong>Seattle, WA 
+              <p>FEBRUARY 2018 - JUNE 2018</p>
+              <p>
+              </p>
+            </li>
             <li>
               <strong>Event Coordinator, SPFF 2017 -Volunteer,</strong>Seattle, WA 
               <p>MARCH 2017 - CURRENT</p>
@@ -49,19 +55,21 @@ class Background extends React.Component {
                 </li>
               </ul>
             </li>
-            <li><strong>Event Administrator - The Sophia Way, </strong>Bellevue, WA 
-            <p>JUNE 2014 - NOVEMBER 2014</p>
-            <ul>
-              <li>Assisted the Development Coordinator with organizing the 2014 Benefit Luncheon for 300 attendees, raising over $50.000.</li>
-              <li>Represented organization during Volunteer Fair, trained new volunteers and covered administration duties.</li>
-              <ul></li>
+            <li>
+              <strong>Event Administrator - The Sophia Way, </strong>Bellevue, WA 
+              <p>JUNE 2014 - NOVEMBER 2014</p>
+              <ul>
+                <li>Assisted the Development Coordinator with organizing the 2014 Benefit Luncheon for 300 attendees, raising over $50.000.</li>
+                <li>Represented organization during Volunteer Fair, trained new volunteers and covered administration duties.</li>
+                </ul>
+            </li>
             <li>
               <strong>Production Manager - Folio 73,     </strong>Warsaw, Poland 
               <p>AUGUST 2011 - JULY 2013</p>
               <ul>
               <li>Managed advertising photo shoots - organized location, equipment and transportation.</li>
               <li>Supported the process of creating and executing ad campaigns for medical market.</li>
-              <ul>
+              </ul>
             </li>
             <li>
               <strong>Office Manager - NextPlex Software Ltd,</strong>Dublin, Ireland 
@@ -69,7 +77,7 @@ class Background extends React.Component {
               <ul>
                 <li>Coordinated payroll, expenses, company documentation and contracts.
                 </li>  
-              <ul>
+              </ul>
             </li>
             <li>
               <strong>Recruitment Coordinator - Runway Recruitment Group,</strong>Dublin, Ireland 
@@ -77,12 +85,35 @@ class Background extends React.Component {
               <ul>
                 <li>Managed 200+ contract nurses and caretakers.
                 </li>  
-              <ul>
+              </ul>
             </li>
           </ul>
         </div>
         <div>
           <h1>EDUCATION</h1>
+          <ul>
+            <li>
+              <strong>Code Fellows, Seattle, WA</strong>
+              <p>JUNE 2018</p>
+              <p>Certificate - Advanced Software Development in Full-Stack JavaScript
+              </p>
+            </li>
+            <li>
+              <strong>University of Kozminski, Warsaw, Poland</strong>
+              <p>Certificate - Advanced Software Development in Full-Stack JavaScript
+              </p>
+            </li>
+            <li>
+              <strong>National College of Ireland, Dublin, Ireland</strong>
+              <p>CIPD in Personnel Practice
+              </p>
+            </li>
+            <li>
+              <strong>University of Economics, Krakow, Poland</strong>
+              <p>M.A in Economics
+              </p>
+            </li>
+          </ul>
         </div>
       </div>
     );
