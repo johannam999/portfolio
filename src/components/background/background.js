@@ -25,18 +25,30 @@ class Background extends React.Component {
         <div>
           <h1>EXPERIENCE</h1>
           <ul>
-            <li><strong>Event Coordinator, SPFF 2017 -Volunteer,</strong>Seattle, WA 
-            <p>MARCH 2017 - CURRENT</p>
-            <p>Organized Gala to celebrate 25th Anniversary of Seattle Polish Film Festival; implemented own ideas, coordinated logistics of all events within festival, worked on social media promotion.</p></li>
-            <li><strong>HR Administrator Contractor - Redfin Real Estate</strong>Seattle, WA 
-            <p>NOVEMBER 2014 - APRIL 2015</p>
-            <ul>
-              <li>HR processes: onboarding 100+ employees a week, conducting documentation audits, maintaining 1000+ employee’s documentation and background checks, improving Workday database process. </li>
-              <li>Collaborated with the Recruitment Department to improve the employment processes and communication between departments.</li>  
-            </p></li>
-            <li><strong>Assistant to Communications Coordinator at Cultural Diversity Dept. City of Bellevue,</strong>Bellevue, WA 
-            <p>OCTOBER 2014 - APRIL 2015</p>
-            <p>Assisted the Communications Coordinator with cultural events such as movie screening “Shift Paradigm” by activist organization Right Now Today.</p></li>
+            <li>
+              <strong>Event Coordinator, SPFF 2017 -Volunteer,</strong>Seattle, WA 
+              <p>MARCH 2017 - CURRENT</p>
+              <p>Organized Gala to celebrate 25th Anniversary of Seattle Polish Film Festival; implemented own ideas, coordinated logistics of all events within festival, worked on social media promotion.
+              </p>
+            </li>
+            <li>
+              <strong>HR Administrator Contractor - Redfin Real Estate</strong>Seattle, WA 
+              <p>NOVEMBER 2014 - APRIL 2015</p>
+              <ul>
+                <li>HR processes: onboarding 100+ employees a week, conducting documentation audits, maintaining 1000+ employee’s documentation and background checks, improving Workday database process.
+                </li>
+                <li>Collaborated with the Recruitment Department to improve the employment processes and communication between departments.
+                </li>  
+              </ul>
+            </li>
+            <li>
+              <strong>Assistant to Communications Coordinator at Cultural Diversity Dept. City of Bellevue,</strong>Bellevue, WA 
+              <p>OCTOBER 2014 - APRIL 2015</p>
+              <ul>
+                <li>Assisted the Communications Coordinator with cultural events such as movie screening “Shift Paradigm” by activist organization Right Now Today.
+                </li>
+              </ul>
+            </li>
             <li><strong>Event Administrator - The Sophia Way, </strong>Bellevue, WA 
             <p>JUNE 2014 - NOVEMBER 2014</p>
             <ul>
@@ -52,11 +64,19 @@ class Background extends React.Component {
               <ul>
             </li>
             <li>
-              <strong>Production Manager - Folio 73     </strong>Warsaw, Poland 
-              <p>JUNE 2014 - NOVEMBER 2014</p>
+              <strong>Office Manager - NextPlex Software Ltd,</strong>Dublin, Ireland 
+              <p>OCTOBER 2009 - JULY 2011</p>
               <ul>
-              <li>Assisted the Development Coordinator with organizing the 2014 Benefit Luncheon for 300 attendees, raising over $50.000.</li>
-              <li>Represented organization during Volunteer Fair, trained new volunteers and covered administration duties.</li>
+                <li>Coordinated payroll, expenses, company documentation and contracts.
+                </li>  
+              <ul>
+            </li>
+            <li>
+              <strong>Recruitment Coordinator - Runway Recruitment Group,</strong>Dublin, Ireland 
+              <p>OCTOBER 2007 - JUNE 2009</p>
+              <ul>
+                <li>Managed 200+ contract nurses and caretakers.
+                </li>  
               <ul>
             </li>
           </ul>
