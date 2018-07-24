@@ -1,48 +1,31 @@
-const merge = require('webpack-merge');
-const commonConfiguration = require('./webpack.common');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
-const HtmlWebpackExcludeEmptyAssetsPlugins = require('html-webpack-exclude-empty-assets-plugin');
+'use strict';
 
-module.exports = merge(commonConfiguration, {
+const merge = require('webpack-merge');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const MiniCSSPlugin = require('mini-css-extract-plugin');
+const HTMLWebpackPlugin = require('html-webpack-exclude-empty-assets-plugin');
+
+const common = require('./webpack.common');
+
+module.exports = merge(common, {
   mode: 'production',
   plugins: [
     new CleanWebpackPlugin(['dist']),
-    new MiniCSSExtractPlugin({
-      filename: 'style.[hash].css',
+    new MiniCSSPlugin({
+      filename: 'styles.[hash].css',
     }),
-    new HtmlWebpackExcludeEmptyAssetsPlugins(),
+    new HTMLWebpackPlugin(),
   ],
   module: {
     rules: [
       {
-        test: /\.s?css$/,
+        test: /\.scss$/,
         use: [
-          MiniCSSExtractPlugin.loader,
+          MiniCSSPlugin.loader,
           'css-loader',
           'sass-loader',
         ],
       },
-      {
-        test: /\.(jpg|gif|png|jpeg)$/,
-        use: [{
-          loader: 'url-loader',
-          options: {
-            limit: 10000,
-            name: 'assets/[name].[hash].[ext]',
-          },
-        }],
-      },
-      {
-        test: /\.(jpg|gif|png)$/,
-        use: [{
-          loader: 'file-loader',
-          options: {
-            name: 'assets/[name].[hash].[ext]',
-          },
-        }],
-      },   
     ],
   },
-  
 });
