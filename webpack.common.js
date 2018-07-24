@@ -1,11 +1,6 @@
 'use strict';
 
-require('dotenv').config();
-
-const { DefinePlugin } = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
-
 
 const webpackConfig = module.exports = {};
 
@@ -18,26 +13,21 @@ webpackConfig.output = {
 
 webpackConfig.plugins = [
   new HtmlWebpackPlugin({
-    title: 'Joanna Coll - bio',
+    title: 'Portfolio',
   }),
-  
-  // new DefinePlugin({
-  //   API_URL: JSON.stringify(process.env.API_URL),
-  // }),
 ];
 
 webpackConfig.module = {};
 
-
 webpackConfig.module.rules = [
   {
-    test: /\.(png|svg|jpg|gif|pdf)$/,
+    test: /\.(png|jpg|gif|pdf)$/,
     use: [
       'file-loader',
     ],
   },
   {
-    test:/\.svg$/,
+    test: /\.svg$/,
     use: [
       {
         loader: 'babel-loader',
