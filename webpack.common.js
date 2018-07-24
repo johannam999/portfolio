@@ -4,7 +4,7 @@
 
 // const { DefinePlugin } = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssPlugin = require('mini-css-extract-plugin');
+
 
 
 const webpackConfig = module.exports = {};
@@ -20,9 +20,7 @@ webpackConfig.plugins = [
   new HtmlWebpackPlugin({
     title: 'Joanna Coll - bio',
   }),
-  new MiniCssPlugin({
-    filename: '[name].[hash].css',
-  }),
+  
   // new DefinePlugin({
   //   API_URL: JSON.stringify(process.env.API_URL),
   // }),
