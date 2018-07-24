@@ -10,7 +10,7 @@ class Background extends React.Component {
             <li>
               <strong>Languages/Libraries</strong>
               <p>JavaScript (ES5 &amp ES6), React, Redux, Node.js, jQuery, Python, HTML5, CSS3, SASS</p>
-              </li>
+            </li>
             <li><strong>Tools</strong>
               <p>Express, Azure Face API, Spotify API, GitHub, Heroku, Twilio, Artillery, Jest,Mongoose, Aws-S3, Travis.ci</p>
             </li>
