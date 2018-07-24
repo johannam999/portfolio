@@ -9,6 +9,8 @@
 *.sql
 *.sqlite3
 
+build/*
+!build/build.xml
 ### Linux ###
 *~
 
