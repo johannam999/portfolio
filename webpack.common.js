@@ -1,8 +1,8 @@
 'use strict';
 
-// require('dotenv').config();
+require('dotenv').config();
 
-// const { DefinePlugin } = require('webpack');
+const { DefinePlugin } = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
