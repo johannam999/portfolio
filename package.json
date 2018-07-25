@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Joanna Coll portfolio",
-  "main": "index.js",
+  "main": "src/main.js",
   "engines": {
     "node": "9.11.1"
   },
