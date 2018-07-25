@@ -1,7 +1,10 @@
-const merge = require('webpack-merge');
-const commonConfig = require('./webpack.common');
+'use strict';
 
+const merge = require('webpack-merge');
 const { HotModuleReplacementPlugin } = require('webpack');
+const MiniCSSPlugin = require('mini-css-extract-plugin');
+
+const commonConfig = require('./webpack.common');
 
 const webpackDevConfig = {};
 
@@ -17,16 +20,22 @@ webpackDevConfig.devServer = {
 
 webpackDevConfig.plugins = [
   new HotModuleReplacementPlugin(),
+  new MiniCSSPlugin({
+    filename: '[name].[hash].css',
+  }),
 ];
+
 webpackDevConfig.module = {};
+
 webpackDevConfig.module.rules = [
   {
-    test: /\.s?css$/,
+    test: /\.scss$/,
     use: [
-      'style-loader',
+      MiniCSSPlugin.loader,
       'css-loader',
       'sass-loader',
     ],
   },
 ];
+
 module.exports = merge(commonConfig, webpackDevConfig);
