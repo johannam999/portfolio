@@ -7,6 +7,7 @@ class Landing extends React.Component {
       <div>
 
       <h2>Hello, I am Joanna Coll - Software Dev. Welcome to my page! Please explore my projects.</h2>
+      <button> Projects</button>
       </div>
     );
   }
