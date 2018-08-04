@@ -7,7 +7,8 @@ import Header from '../header/header';
 import Background from '../background/background';
 import About from '../about/about';
 import Contact from '../contact/contact';
-import Landing from '../landing/landing'
+import Landing from '../landing/landing';
+
 
 class App extends React.Component {
   render() {

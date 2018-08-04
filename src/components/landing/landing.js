@@ -7,7 +7,7 @@ class Landing extends React.Component {
     return (
       <div>
       <h2>Hello, I am Joanna Coll - Software Dev. Welcome to my page! Please explore my projects.</h2>
-      <button><Link to={routes.PROJECTS_ROUTE}> View my resume </Link>
+      <button><Link to={routes.PROJECTS_ROUTE}> Projects </Link>
         </button>
       </div>
     );
