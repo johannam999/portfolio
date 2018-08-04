@@ -2,14 +2,14 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Joanna Coll portfolio",
-  "main": "index.js",
+  "main": "src/main.js",
   "engines": {
     "node": "9.11.1"
   },
   "scripts": {
     "watch": "webpack-dev-server --config webpack.dev.js",
     "test": "jest",
-    "heroku-build": "webpack --progress --config webpack.prod.js",
+    "heroku-postbuild": "webpack --progress --config webpack.prod.js",
     "start": "node index.js"
   },
   "jest": {

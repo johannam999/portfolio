@@ -1,4 +1,5 @@
 import React from 'react';
+import './background.scss'; 
 
 class Background extends React.Component {
   render() {
@@ -25,14 +26,20 @@ class Background extends React.Component {
         <div>
           <h1>EXPERIENCE</h1>
           <ul>
-          <li>
-              <strong>Full Stack JavaScript Developer Training - Codefellows</strong>Seattle, WA 
+            <li>
+              <strong>Teacher Assistant at Code Fellows</strong>Seattle, WA 
               <p>FEBRUARY 2018 - JUNE 2018</p>
               <p>
               </p>
             </li>
             <li>
-              <strong>Event Coordinator, SPFF 2017 -Volunteer,</strong>Seattle, WA 
+              <strong>Full Stack JavaScript Developer Training - Code Fellows</strong>Seattle, WA 
+              <p>FEBRUARY 2018 - JUNE 2018</p>
+              <p>
+              </p>
+            </li>
+            <li>
+              <strong>Event Coordinator, Seattle Polish Film Festival 2017 - Volunteer,</strong>Seattle, WA 
               <p>MARCH 2017 - CURRENT</p>
               <p>Organized Gala to celebrate 25th Anniversary of Seattle Polish Film Festival; implemented own ideas, coordinated logistics of all events within festival, worked on social media promotion.
               </p>

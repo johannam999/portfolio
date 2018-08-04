@@ -7,6 +7,8 @@ import Header from '../header/header';
 import Background from '../background/background';
 import About from '../about/about';
 import Contact from '../contact/contact';
+import Landing from '../landing/landing';
+
 
 class App extends React.Component {
   render() {
@@ -14,6 +16,7 @@ class App extends React.Component {
         <BrowserRouter>
           <div className='app-components'>
             <Header/>
+            <Route exact path={routes.LANDING_ROUTE} component={Landing}/>
             <Route exact path={routes.PROJECTS_ROUTE} component={ Projects }/>
             <Route exact path={routes.BACKGROUND_ROUTE} component={ Background }/>
             <Route exact path={routes.ABOUT_ROUTE} component={ About }/>

@@ -9,7 +9,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div>
-          <h2>My Projects</h2>
+        <h2>My Projects</h2>
         <div>
           <h1><a href='http://www.musicpic.fun'> Music Pic</a><img src={logoMP}width='90px'/></h1> 
           <p>An app that uses Azure face recognition to display Spotify playlist based on keyword.</p>
