@@ -4,21 +4,21 @@ import './background.scss';
 class Background extends React.Component {
   render() {
     return (
-      <div>
+      <div className='background'>
         <div>
           <h1>SKILLS</h1>
           <ul>
             <li>
-              <strong>Languages/Libraries</strong>
+              <strong className='strong'>Languages/Libraries</strong>
               <p>JavaScript (ES5 &amp ES6), React, Redux, Node.js, jQuery, Python, HTML5, CSS3, SASS</p>
             </li>
-            <li><strong>Tools</strong>
+            <li><strong className='strong'>Tools</strong>
               <p>Express, Azure Face API, Spotify API, GitHub, Heroku, Twilio, Artillery, Jest,Mongoose, Aws-S3, Travis.ci</p>
             </li>
-            <li><strong>Methodologies</strong>
+            <li><strong className='metod'>Methodologies</strong>
               <p>SCRUM, Agile, TDD, OOP, REST API, SMACSS, MVC</p>
             </li>
-            <li><strong>Database</strong>
+            <li><strong className='strong'>Database</strong>
               <p> SQL, MongoDB</p>
             </li>
           </ul>
@@ -27,25 +27,26 @@ class Background extends React.Component {
           <h1>EXPERIENCE</h1>
           <ul>
             <li>
-              <strong>Teacher Assistant at Code Fellows</strong>Seattle, WA 
+              <strong>Teacher Assistant at Code Fellows</strong> Seattle, WA 
               <p>FEBRUARY 2018 - JUNE 2018</p>
               <p>
               </p>
             </li>
             <li>
-              <strong>Full Stack JavaScript Developer Training - Code Fellows</strong>Seattle, WA 
+              <strong>Full Stack JavaScript Developer Training - Code Fellows</strong> Seattle, WA 
               <p>FEBRUARY 2018 - JUNE 2018</p>
               <p>
               </p>
             </li>
             <li>
-              <strong>Event Coordinator, Seattle Polish Film Festival 2017 - Volunteer,</strong>Seattle, WA 
+              <strong>Event Coordinator, Seattle Polish Film Festival 2017 - Volunteer,</strong> Seattle,WA 
               <p>MARCH 2017 - CURRENT</p>
-              <p>Organized Gala to celebrate 25th Anniversary of Seattle Polish Film Festival; implemented own ideas, coordinated logistics of all events within festival, worked on social media promotion.
-              </p>
+              <ul><li>Organized Gala to celebrate 25th Anniversary of Seattle Polish Film Festival; implemented own ideas, coordinated logistics of all events within festival, worked on social media promotion.
+              </li>
+              </ul>
             </li>
             <li>
-              <strong>HR Administrator Contractor - Redfin Real Estate</strong>Seattle, WA 
+              <strong>HR Administrator Contractor - Redfin Real Estate</strong> Seattle, WA 
               <p>NOVEMBER 2014 - APRIL 2015</p>
               <ul>
                 <li>HR processes: onboarding 100+ employees a week, conducting documentation audits, maintaining 1000+ employee’s documentation and background checks, improving Workday database process.
@@ -55,7 +56,7 @@ class Background extends React.Component {
               </ul>
             </li>
             <li>
-              <strong>Assistant to Communications Coordinator at Cultural Diversity Dept. City of Bellevue,</strong>Bellevue, WA 
+              <strong>Assistant to Communications Coordinator at Cultural Diversity Dept. City of Bellevue,</strong> Bellevue, WA 
               <p>OCTOBER 2014 - APRIL 2015</p>
               <ul>
                 <li>Assisted the Communications Coordinator with cultural events such as movie screening “Shift Paradigm” by activist organization Right Now Today.
