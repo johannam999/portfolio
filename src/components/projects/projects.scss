@@ -1,6 +1,11 @@
 @import '../../../styles/vars';
 @import '../../../styles/base';
 
-main{
-  background-color: aliceblue;
+.projects{
+  margin-left:$margin-left;
+
+  img {
+    width:180px;
+    
+  }
 }

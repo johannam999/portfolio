@@ -11,7 +11,7 @@ html, body{
 body {
   height: 100%;
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
 }
 
 a {
@@ -19,8 +19,6 @@ a {
   color: $font-color;
   text-decoration: none;
 }
-
-
 
 .error {
   border: 1px solid $error;
