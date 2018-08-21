@@ -18,8 +18,21 @@ a {
   font-size: $header-font;
   color: $font-color;
   text-decoration: none;
+  
 }
+button {
+  background:rgb(160, 22, 123);
+  border-radius: 6px;
+  padding:6px;
+}
+button a{
+  color:white;
+}
+button a:hover{
+ color:white;
+ font-weight:bold;
 
+}
 .error {
   border: 1px solid $error;
 }
@@ -38,7 +51,7 @@ main, footer, article, section, div, h1, a {
 
 li {
   text-transform: uppercase;
-  display: inline-block;
+  display: block;
   margin-right: 2vw;
 }
 

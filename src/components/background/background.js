@@ -29,7 +29,7 @@ class Background extends React.Component {
             <li>
               <strong>Teaching Assistant at Code Fellows</strong> Seattle, WA 
               <p>FEBRUARY 2018 - JUNE 2018</p>
-              <p>
+              <p>Assisted students with problem solving, debugging process. Improved student’s understanding of  data structures and algorithms. Learned mentoring skills and reading different code styles.
               </p>
             </li>
             <li>
