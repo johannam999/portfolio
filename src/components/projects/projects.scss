@@ -1,2 +1,11 @@
 @import '../../../styles/vars';
 @import '../../../styles/base';
+
+.projects{
+  margin-left:$margin-left;
+
+  img {
+    width:180px;
+    
+  }
+}

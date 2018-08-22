@@ -2,11 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import * as routes from '../../routes';
+import './header.scss';
 
 class Header extends React.Component {
   render() {
     return (
-      <header>
+      <header className='nav'>
         <nav>
           <ul>
             <li><Link to={routes.LANDING_ROUTE}> Home </Link>

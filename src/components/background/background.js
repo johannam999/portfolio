@@ -5,29 +5,29 @@ class Background extends React.Component {
   render() {
     return (
       <div className='background'>
-        <div>
+        <div className='small'>
           <h1>SKILLS</h1>
           <ul>
-            <li>
+            <li className='block'>
               <strong className='strong'>Languages/Libraries</strong>
               <p>JavaScript (ES5 &amp ES6), React, Redux, Node.js, jQuery, Python, HTML5, CSS3, SASS</p>
             </li>
-            <li><strong className='strong'>Tools</strong>
+            <li className='block'><strong className='strong'>Tools</strong>
               <p>Express, Azure Face API, Spotify API, GitHub, Heroku, Twilio, Artillery, Jest,Mongoose, Aws-S3, Travis.ci</p>
             </li>
-            <li><strong className='metod'>Methodologies</strong>
+            <li className='block'><strong className='metod'>Methodologies</strong>
               <p>SCRUM, Agile, TDD, OOP, REST API, SMACSS, MVC</p>
             </li>
-            <li><strong className='strong'>Database</strong>
+            <li className='block'><strong className='strong'>Database</strong>
               <p> SQL, MongoDB</p>
             </li>
           </ul>
         </div>
-        <div>
+        <div className='small'>
           <h1>EXPERIENCE</h1>
           <ul>
             <li>
-              <strong>Teacher Assistant at Code Fellows</strong> Seattle, WA 
+              <strong>Teaching Assistant at Code Fellows</strong> Seattle, WA 
               <p>FEBRUARY 2018 - JUNE 2018</p>
               <p>
               </p>
@@ -97,7 +97,7 @@ class Background extends React.Component {
             </li>
           </ul>
         </div>
-        <div>
+        <div className='small'>
           <h1>EDUCATION</h1>
           <ul>
             <li>

@@ -11,17 +11,13 @@ html, body{
 body {
   height: 100%;
   margin: 0 auto;
+  width: 80%;
 }
 
 a {
   font-size: $header-font;
   color: $font-color;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: black;
 }
 
 .error {
