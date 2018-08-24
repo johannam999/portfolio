@@ -4,8 +4,7 @@
 .background {
   color: rgb(85, 84, 84);
   margin-left: 30px;
-  margin-left: $margin-left;
-  
+  margin-left: $margin-left; 
 }
 
 h1 {
@@ -16,17 +15,18 @@ h1 {
 }
 li {
   margin-bottom: 10px;
-  line-height: 10px;
+  line-height: 15px;
 }
+
 .block {
   display: block;
 }
 
 strong {
   font-weight: bold;
-  font-size: 1.0vw;
- 
+  font-size: 1.0vw; 
 }
+
 p, li {
   letter-spacing:0.2vw;
   font-size: 1.0vw; 
