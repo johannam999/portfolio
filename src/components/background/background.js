@@ -27,15 +27,9 @@ class Background extends React.Component {
           <h1>EXPERIENCE</h1>
           <ul>
             <li>
-              <strong>Teaching Assistant at Code Fellows</strong> Seattle, WA 
+              <strong>Teaching Assistant at Code Fellows,</strong> Seattle, WA 
               <p>FEBRUARY 2018 - JUNE 2018</p>
-              <p>
-              </p>
-            </li>
-            <li>
-              <strong>Full Stack JavaScript Developer Training - Code Fellows</strong> Seattle, WA 
-              <p>FEBRUARY 2018 - JUNE 2018</p>
-              <p>
+              <p>Assisted students with problem solving, debugging process. Improved student’s understanding of  data structures and algorithms. Learned mentoring skills and reading different code styles.
               </p>
             </li>
             <li>
@@ -46,7 +40,7 @@ class Background extends React.Component {
               </ul>
             </li>
             <li>
-              <strong>HR Administrator Contractor - Redfin Real Estate</strong> Seattle, WA 
+              <strong>HR Administrator Contractor - Redfin Real Estate,</strong> Seattle, WA 
               <p>NOVEMBER 2014 - APRIL 2015</p>
               <ul>
                 <li>HR processes: onboarding 100+ employees a week, conducting documentation audits, maintaining 1000+ employee’s documentation and background checks, improving Workday database process.

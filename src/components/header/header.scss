@@ -4,11 +4,14 @@
 
 .nav {
   padding-bottom: 70px;
-  padding-top: 30px;
-  
+  padding-top: 30px;  
 }
 
-a:hover {
+.nav a:hover {
   text-decoration: underline;
   color: rgb(163, 12, 122);
+}
+
+.nav li{
+  display:inline-block;
 }
