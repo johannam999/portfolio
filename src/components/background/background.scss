@@ -2,13 +2,13 @@
 @import '../../../styles/base';
 
 .background {
-  color: rgb(85, 84, 84);
+  color: $font-color;
   margin-left: 30px;
   margin-left: $margin-left; 
 }
 
 h1 {
-  color: rgb(163, 12, 122);
+  color: $primary-color;
   font-size: 1.5vw;
   letter-spacing:0.3vw;
   
