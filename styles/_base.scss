@@ -11,9 +11,11 @@ html, body{
 body {
   height: 100%;
   margin: 0 auto;
-  width: 80%;
+  //width: 80%;
 }
-
+.app-components {
+ width: 100%;
+}
 a {
   font-size: $header-font;
   color: $font-color;

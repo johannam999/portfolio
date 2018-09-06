@@ -2,36 +2,40 @@
 @import '../../../styles/base';
 
 .background {
+  width:$component-width;
+  margin-top: 50px;
   color: $font-color;
-  margin-left: 30px;
-  margin-left: $margin-left; 
-}
-
-h1 {
-  color: $primary-color;
-  font-size: 1.5vw;
-  letter-spacing:0.3vw;
+  //margin-left: 100px;
+  margin-left: $component-margin-left; 
   
-}
-li {
-  margin-bottom: 10px;
-  line-height: 15px;
+
+  h1 {
+    color: $primary-color;
+    font-size: 1.5vw;
+    letter-spacing:0.3vw;
+    
+  }
+  li {
+    margin-bottom: 10px;
+    line-height: 15px;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  strong {
+    font-weight: bold;
+    font-size: 1.0vw; 
+  }
+  
+  p, li {
+    letter-spacing:0.2vw;
+    font-size: 1.0vw; 
+  }
+  
+  .background{
+    letter-spacing:0.2vw;
+  }
 }
 
-.block {
-  display: block;
-}
-
-strong {
-  font-weight: bold;
-  font-size: 1.0vw; 
-}
-
-p, li {
-  letter-spacing:0.2vw;
-  font-size: 1.0vw; 
-}
-
-.background{
-  letter-spacing:0.2vw;
-}
