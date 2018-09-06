@@ -1,0 +1,20 @@
+@import '../../../styles/vars';
+@import '../../../styles/base';
+
+.footer {
+  width: 100%;
+  background-color: $header-footer-color;
+  text-align: center;
+  margin-top: 50px;
+  // display: flex;
+  // flex-direction: column;
+  h2 {
+    font-size: 16px;
+  }
+  a {
+    display:inline-block;
+  }
+  div {
+    text-align: center;
+  }
+}
