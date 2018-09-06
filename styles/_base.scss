@@ -48,7 +48,9 @@ main, footer, article, section, div, h1, a {
   width: 100%;
   display: inline-block;
 }
-
+ul {
+  margin: 0;
+}
 li {
   text-transform: uppercase;
   display: block;

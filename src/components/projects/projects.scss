@@ -3,8 +3,9 @@
 
 .projects{
   width: $component-width;
-  text-align: center;
-  //margin-left: $component-margin-left;
+  margin: 0 auto;
+  //text-align: center;
+  margin-left: $component-margin-left;
   img {
     width:180px; 
   }
@@ -14,6 +15,7 @@
     text-transform: uppercase;
     margin-right: 2vw;
     font-size: $p-font;
+    line-height: 25px;
   }
   h1 {
     color: $primary-color;
