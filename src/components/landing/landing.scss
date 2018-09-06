@@ -1,0 +1,18 @@
+@import '../../../styles/vars';
+@import '../../../styles/base';
+
+
+.landing {
+  color:$modal-color;
+  text-align: center;
+  width:$component-width;
+  margin-left: $component-margin-left;
+  margin-bottom: 30px;
+  h2 {
+    font-size: $h2-font;
+    font-weight: $font-weight;
+    line-height: 45px;
+  
+  }
+
+}

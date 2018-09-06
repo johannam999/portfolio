@@ -1,24 +1,27 @@
-// --------------------------------------------------------------------------------------
+// --------------------------------------------------
 // COLORS
-// --------------------------------------------------------------------------------------
+// --------------------------------------------------
 
-$primary-color: rgb(85, 86, 136);
-$secondary-color: rgb(158, 158, 0); 
-$font-color: rgb(145, 142, 142);
+
+$primary-color: rgb(163, 12, 122); 
+$font-color: rgb(85, 84, 84);
 $font: sans-serif;
 $font-weight: thin;
 $modal-color: rgba(0,0,0,0.4);
 $modal-background: rgb(34, 31, 31);
-$error: red;
 $spacing: 5vw;
 $spacing-sm: $spacing / 4;
 $radius: 30px;
 $p-font: 1vw;
 $header-font: 1.2vw;
 $h1-font: 1.5vw;
+$h2-font:1.8vw;
 $nav-font: 1.5vw;
 $nav-weight: thin;
 $button-font: 1.5vw;
 $button-padding: 1vw 3vw;
 $input-padding: 1vw 2vw;
 $margin-left:5%;
+$component-margin-left:18%;
+$component-width:70%;
+$margin-bottom:50px;

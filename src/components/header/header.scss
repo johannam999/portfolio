@@ -1,17 +1,25 @@
 @import '../../../styles/vars';
 @import '../../../styles/base';
 
-
 .nav {
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   padding-top: 30px;  
+  text-align:center;
+  background-color: rgb(216, 216, 216); 
+  width:100%;
+  margin-bottom: $margin-bottom;
+  
+  //justify-content: space-evenly;
+
+  a:hover {
+    text-decoration: underline;
+    color: $primary-color;
+    
+  }
+  
+  li{
+    display:inline-block;
+    padding-left: 30px;
+  }
 }
 
-.nav a:hover {
-  text-decoration: underline;
-  color: rgb(163, 12, 122);
-}
-
-.nav li{
-  display:inline-block;
-}

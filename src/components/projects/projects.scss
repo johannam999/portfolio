@@ -2,9 +2,25 @@
 @import '../../../styles/base';
 
 .projects{
-  margin-left:$margin-left;
-
+  width: $component-width;
+  margin: 0 auto;
+  //text-align: center;
+  margin-left: $component-margin-left;
   img {
     width:180px; 
+  }
+  div p {
+    letter-spacing: 0.12vw;
+    font-size: 1.0vw; 
+    text-transform: uppercase;
+    margin-right: 2vw;
+    font-size: $p-font;
+    line-height: 25px;
+  }
+  h1 {
+    color: $primary-color;
+    font-size: 1.5vw;
+    letter-spacing:0.3vw;
+    
   }
 }

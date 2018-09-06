@@ -11,9 +11,11 @@ html, body{
 body {
   height: 100%;
   margin: 0 auto;
-  width: 80%;
+  //width: 80%;
 }
-
+.app-components {
+ width: 100%;
+}
 a {
   font-size: $header-font;
   color: $font-color;
@@ -21,7 +23,7 @@ a {
   
 }
 button {
-  background:rgb(160, 22, 123);
+  background:$primary-color;
   border-radius: 6px;
   padding:6px;
 }
@@ -33,9 +35,7 @@ button a:hover{
  font-weight:bold;
 
 }
-.error {
-  border: 1px solid $error;
-}
+
 
 main, footer, article, section, div, h1, a {
   letter-spacing: .4vw;
@@ -48,7 +48,9 @@ main, footer, article, section, div, h1, a {
   width: 100%;
   display: inline-block;
 }
-
+ul {
+  margin: 0;
+}
 li {
   text-transform: uppercase;
   display: block;
