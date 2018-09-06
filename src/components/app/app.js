@@ -22,8 +22,8 @@ class App extends React.Component {
             <Route exact path={routes.BACKGROUND_ROUTE} component={ Background }/>
             <Route exact path={routes.ABOUT_ROUTE} component={ About }/>
             <Route exact path={routes.CONTACT_ROUTE} component={ Contact }/>
-          </div>
-          <Footer/>
+            <Footer/>
+          </div>  
         </BrowserRouter>
     );
   }
