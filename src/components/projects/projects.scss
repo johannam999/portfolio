@@ -2,15 +2,18 @@
 @import '../../../styles/base';
 
 .projects{
-  //width: $component-width;
+  width: $component-width;
   text-align: center;
   //margin-left: $component-margin-left;
   img {
     width:180px; 
   }
-  p {
-    letter-spacing:0.2vw;
+  div p {
+    letter-spacing: 0.12vw;
     font-size: 1.0vw; 
+    text-transform: uppercase;
+    margin-right: 2vw;
+    font-size: $p-font;
   }
   h1 {
     color: $primary-color;
