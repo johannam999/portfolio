@@ -9,7 +9,7 @@ import linkedinLogo from '../../assets/linkedin-icon.png';
 class Footer extends React.Component {
   render() {
     return (
-      <footer>
+      <footer className='footer'>
         <h2> ©Joanna Coll 2018</h2>
         <div>
         <a        href='https://github.com/johannam999'><img src={githubLogo}/>
