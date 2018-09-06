@@ -2,12 +2,15 @@
 @import '../../../styles/base';
 
 .footer {
-  text-align: center;
+  width: 100%;
   background-color: $header-footer-color;
-  // h2{
-  //   text-align: center;
-  // }
-  // div {
-  //   text-align: center;
-  // }
+  text-align: center;
+  // display: flex;
+  // flex-direction: column;
+  a {
+    display:inline-block;
+  }
+  div {
+    text-align: center;
+  }
 }
