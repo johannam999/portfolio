@@ -10,7 +10,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className='footer'>
-        <h2> © Joanna Coll 2018</h2>
+        <h2> © by Joanna Coll 2018</h2>
         <div>
         <a        href='https://github.com/johannam999'><img src={githubLogo}/>
         </a>
