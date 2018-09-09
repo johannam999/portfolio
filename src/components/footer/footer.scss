@@ -6,19 +6,30 @@
   background-color: $header-footer-color;
   text-align: center;
   margin-top: 50px;
-  // display: flex;
-  // flex-direction: column;
+
   h2 {
     font-size: 16px;
   }
   a {
-    //display:inline-block;
     vertical-align:middle;
     text-align:center;
     width:50px;
   }
-  
-  div {
-    text-align: center;
+  .svg-container {
+    //font-size: 2em;
+
+    svg {
+     // margin: 0.5em 0.5em;
+  }
+  }
+  .github-logo {
+    width:50px;
+    height:50px;
+    fill:rgb(224, 21, 21);
+  }
+  .linkedin-logo {
+    width:50px;
+    height:50px;
+    
   }
 }
