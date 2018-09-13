@@ -9,7 +9,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className='footer'>
-        
+        <h2>Contact me on</h2>
         <div className='svg-container'>
           <a href='https://github.com/johannam999'>
           <GithubLogoSVG className='github-logo'/>
