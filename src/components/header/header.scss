@@ -8,8 +8,6 @@
   background-color: $header-footer-color; 
   width:100%;
   margin-bottom: $margin-bottom;
-  
-  //justify-content: space-evenly;
 
   a:hover {
     text-decoration: underline;
@@ -19,7 +17,7 @@
   
   li{
     display:inline-block;
-    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
