@@ -5,6 +5,7 @@
   width:$component-width;
   color: $font-color;
   margin-left: $component-margin-left;
+  letter-spacing:0.2vw;
 
   h1 {
     color: $primary-color;
@@ -32,9 +33,6 @@
     letter-spacing:0.2vw;
     font-size: 1.0vw; 
   }
-  
-  .background{
-    letter-spacing:0.2vw;
-  }
+ 
 }
 
