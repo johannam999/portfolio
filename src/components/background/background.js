@@ -15,7 +15,7 @@ class Background extends React.Component {
             <li className='block'><strong className='strong'>Tools</strong>
               <p>Express, Azure Face API, Spotify API, GitHub, Heroku, Twilio, Artillery, Jest,Mongoose, Aws-S3, Travis.ci</p>
             </li>
-            <li className='block'><strong className='metod'>Methodologies</strong>
+            <li className='block'><strong className='methodology'>Methodologies</strong>
               <p>SCRUM, Agile, TDD, OOP, REST API, SMACSS, MVC</p>
             </li>
             <li className='block'><strong className='strong'>Database</strong>
@@ -23,7 +23,7 @@ class Background extends React.Component {
             </li>
           </ul>
         </div>
-        <div className='small'>
+        <div className='experience'>
           <h1>EXPERIENCE</h1>
           <ul>
             <li>
