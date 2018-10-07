@@ -6,9 +6,11 @@
   margin: 0 auto;
   //text-align: center;
   margin-left: $component-margin-left;
+  
   img {
     width:180px; 
   }
+
   .projects p {
     letter-spacing: 0.12vw;
     font-size: 1.0vw; 
@@ -17,7 +19,7 @@
     font-size: $p-font;
     line-height: 25px;
   }
-  
+
   .projects h1 {
     color: $primary-color;
     font-size: 1.5vw;
